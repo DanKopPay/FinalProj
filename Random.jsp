@@ -1,18 +1,22 @@
 <html>
 <head><title>Random JSP</title></head>
-<body>
+<body bgcolor="yellow">
+	<h1><center>Welcome Ziv!</center></h1>
+	<h2><center>This is the random game!!!</center></h2>
   <%
     double num = Math.random();
     if (num > 0.95) {
   %>
-      <h2>You'll have a luck day!</h2><p>(<%= num %>)</p>
+      <h2><center>You'll have a luck day!</center></h2>
   <%
     } else {
   %>
-      <h2>Well, life goes on ... </h2><p>(<%= num %>)</p>
+      <h2><center>Well, life goes on ... </center></h2>
   <%
     }
   %>
-  <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
+  <p><center>(<%= num %>)</center></p>
+  <a href="<%= request.getRequestURI() %>"><h3><center>Try Again</center></h3></a>
+  <a href="https://www.facebook.com/ziv.vilozni"><h3><center>Let's see what is new</center></h3></a>
 </body>
 </html>
