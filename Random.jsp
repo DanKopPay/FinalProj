@@ -2,7 +2,9 @@
 <head><title>Random JSP</title></head>
 <body bgcolor="yellow">
 	<h1><center>Welcome Ziv!</center></h1>
+	<center><img src="ziv.jpg" alt="The Teacher"></center>
 	<h2><center>This is the random game!!!</center></h2>
+	<h2><center>Lets see if you are lucky today :</center></h2>
   <%
     double num = Math.random();
     if (num > 0.95) {
